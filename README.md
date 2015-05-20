@@ -2,7 +2,7 @@
 
 Coming June 16th, formally introducing at [Wicked Good Ember Conference](http://wickedgoodember.com/speakers#jay-phelps). Until then, you can [Watch a teaser](https://www.youtube.com/watch?v=sNeK4Kplo9g&t=812)
 
-```hbs
+```html
 <my-counter counter="0" font-color="red" font-size="32"></my-counter>
 ```
 
