@@ -1,0 +1,30 @@
+{
+  "name": "graffiti",
+  "version": "0.0.1",
+  "description": "Universal Web Components",
+  "main": "index.js",
+  "author": "Jay Phelps <hello@jayphelps.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayphelps/graffiti.git"
+  },
+  "bin": "./bin/graffiti",
+  "scripts": {
+    "start": "broccoli serve",
+    "build": "rm -rf lib && broccoli build lib",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "htmlbars": "0.13.8",
+    "babel": "^5.0.0"
+  },
+  "devDependencies": {
+    "broccoli-concat": "0.0.13",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.1",
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "mocha-jshint": "^1.0.0"
+  }
+}

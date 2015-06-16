@@ -1,0 +1,38 @@
+{
+  "name": "graffiti-runtime",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/graffiti.js",
+  "scripts": {
+    "start": "broccoli serve",
+    "build": "rm -rf dist && broccoli build dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayphelps/graffiti.git"
+  },
+  "author": "Jay Phelps <hello@jayphelps.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayphelps/graffiti/issues"
+  },
+  "homepage": "https://github.com/jayphelps/graffiti",
+  "devDependencies": {
+    "babel": "^5.0.0",
+    "broccoli": "^0.16.2",
+    "broccoli-babel-transpiler": "^5.0.0",
+    "broccoli-concat": "^0.0.13",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.1",
+    "chai": "^2.2.0",
+    "glob": "^5.0.3",
+    "htmlbars": "0.13.30",
+    "jshint": "jshint/jshint#master",
+    "mocha": "^2.2.4",
+    "mocha-jshint": "^1.0.0"
+  },
+  "dependencies": {
+    "zone.js": "^0.5.1"
+  }
+}
