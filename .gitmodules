@@ -1,0 +1,3 @@
+[submodule "graffiti-runtime"]
+	path = graffiti-runtime
+	url = git@github.com:jayphelps/graffiti-runtime.git
